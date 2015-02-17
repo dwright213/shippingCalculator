@@ -2,13 +2,11 @@ $(document).ready(function() {
   $("form#package").submit(function(event) {
     event.preventDefault();
     var inputShipTo = parseInt($("input#shipTo").val());
-    var inputShipFrom = parseInt($("input#shipFrom").val());
     var inputWeight = parseInt($("input#weight").val());
     var inputHeight = parseInt($("input#height").val());
     var inputWidth = parseInt($("input#width").val());
     var inputLength = parseInt($("input#length").val());
     var parcel = { shipTo: inputShipTo,
-                    shipFrom: inputShipFrom,
                     weight: inputWeight,
                     height: inputHeight,
                     width: inputWidth,
