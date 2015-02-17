@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Shipping Calculator</title>
+      <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
       <script src="js/jquery-1.11.2.js"></script>
@@ -11,35 +12,41 @@
     <body>
       <div id="hugeDiv">
         <div class="container-fluid">
-              <div class="col-md-1">
-                <div class="container">
-                  <div class="col-md-4"
-                    <form id="package" >
-                      <br>
-                      <input class="form-control" type="text" id="shipTo" name="shipTo" placeholder="Ship to pixel">
-                      <br>
+              <div class="row">
+                <div class="col-md-1">
+                  <div class="container">
+                    <div class="col-md-4">
+                      <h1>Parcel Calculator</h1>
+                      <form id="package" >
+                        <br>
+                        <input class="form-control" type="text" id="shipTo" name="shipTo" placeholder="Ship to (pixel)">
+                        <br>
 
-                      <input class="form-control" type="text" id="weight" name="weight"placeholder="Weight (lbs)">
-                      <br>
+                        <input class="form-control" type="text" id="weight" name="weight"placeholder="Weight (lbs)">
+                        <br>
 
-                      <input class="form-control" type="text" id="height" name="height" placeholder="Height (in)">
-                      <br>
+                        <input class="form-control" type="text" id="height" name="height" placeholder="Height (in)">
+                        <br>
 
-                      <input class="form-control" type="text" id="width" name="width" placeholder="Width (in)">
-                      <br>
+                        <input class="form-control" type="text" id="width" name="width" placeholder="Width (in)">
+                        <br>
 
-                      <input class="form-control" type="text" id="length" name="length" placeholder="Length (in)">
-                      <br>
+                        <input class="form-control" type="text" id="length" name="length" placeholder="Length (in)">
+                        <br>
 
-                      <button class="form-control btn btn-warning" type="submit"> Calculate! </button>
-                      <br>
-                    </form>
+                        <button class="form-control btn btn-warning" type="submit"> Calculate! </button>
+                        <br>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
-            <ul id="packageInfo" class="col-xs-9">
+              <br>
+              <br>
+              <br>
+              <div class="row" id="distanceSpacer">
 
-            </ul>
+              </div>
           </div>
       </div>
     </body>
