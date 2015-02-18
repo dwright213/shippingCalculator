@@ -6,3 +6,11 @@ body {
 #hugeDiv {
   width: 13216px;
 }
+
+#path {
+height: 500px;
+float: left;
+background-image: url("../img/arrow.png");
+background-repeat: repeat-x;
+
+}
