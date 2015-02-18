@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/bg.jpg");
+  background: #741515 url("../img/bg.jpg") repeat-x;
   font-family: 'Lora', serif;
 }
 
@@ -10,7 +10,15 @@ body {
 #path {
 height: 500px;
 float: left;
-background-image: url("../img/arrow.png");
-background-repeat: repeat-x;
-
+background: url("../img/arrow.gif") right 0 repeat-x;
 }
+
+#shippingLabel {
+  background: hsla(0, 69%, 100%, 0.9);
+  display: inline-block;
+  text-align:center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  border-radius: 10px;
+  }
